@@ -10,8 +10,6 @@
   * [Estándares para nombramiento del código fuente](aprendizaje-supervisado/clasificador/regresion-logistica.md)
   * [Estándares para el nombramiento de la documentación](aprendizaje-supervisado/clasificador/bayes.md)
 * [Herramientas](aprendizaje-no-supervisado/aprendizaje-no-supervisado.md)
-  * [K-means](aprendizaje-no-supervisado/k-means.md)
-  * [GMM](aprendizaje-no-supervisado/gmm.md)
 * [Gestión de cambios](codificacion-etiquetas.md)
 * [Repositorios](repositorios.md)
 * [Estrategia de bifurcación](estrategia-de-bifurcacion.md)

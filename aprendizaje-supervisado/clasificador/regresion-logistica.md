@@ -1,5 +1,7 @@
 # Estándares para nombramiento del código fuente
 
+---
+
 ## 1. **Normas referentes al uso de minúsculas y mayúsculas**
 
 ### **1.1 Pascal Case**
@@ -20,8 +22,8 @@
 
 ## **2. Convenciones generales de nomenclatura**
 
-1. **Elección de palabras: **Elegir nombres fácilmente legibles para los identificadores **  
-   **
+1. **Elección de palabras: **Elegir nombres fácilmente legibles para los identificadores \*\*  
+   \*\*
 
 ## 3. **Nombramiento**
 
@@ -34,10 +36,6 @@
    3. Tercero: 
       1. **Admin** si se trata del sistema administrativo
       2. **Reproductor** si es el sistema reproductor de canciones
-
-
-
-
 
 
 
