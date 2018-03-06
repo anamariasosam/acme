@@ -22,8 +22,7 @@
 
 ## **2. Convenciones generales de nomenclatura**
 
-1. **Elección de palabras: **Elegir nombres fácilmente legibles para los identificadores \*\*  
-   \*\*
+1. **Elección de palabras: **Elegir nombres fácilmente legibles para los identificadores
 
 ## 3. **Nombramiento**
 
