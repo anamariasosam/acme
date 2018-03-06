@@ -1,25 +1,24 @@
-# Remoción de la media
+# Nombramiento de las líneas bases
 
-Eliminar la tendencia de los datos. La operación que se realiza sobre la matriz de datos es la siguiente:
+El nombramiento de las líneas bases estará conformado por:
 
-$$\frac{\mathbf{X}-\mathbf{\hat{X}}}{\sigma_{\mathbf{X}}},$$
+**NombreProyecto\_VersionEntregable-FECHA**
 
-donde $$\mathbf{\hat{X}}$$ es la media y $${\sigma_{\mathbf{X}}}$$ es la desviación
+* **NombreProyecto:** Nombre del proyecto en que se está trabajando en formato PascalCase
+* **VersionEntregable:** V corresponde al número de versión del aplicativo
+* **Fecha:** estará en un formato DDMMYYYY
 
-## Método de remoción
-```python
-def remocion(X):
-    X = X - X.mean(axis=0)
-    X = X/X.std(axis=0)
 
-    return X
-```
 
-## LLamámos el método
-```python
-  datos_centralizados = remocion(X)
-  media = datos_centralizados.mean(axis=0)
-  print('La media de las caracteristicas es', media)
-  desviacion = datos_centralizados.std(axis=0)
-  print('La desviacion de las caracteristicas es', desviacion)
-```
+Teniendo en cuenta lo anterior, las líneas bases quedarían nombradas de la siguiente forma:
+
+* **LAMU\_0.1-Fecha**
+* **LAMU\_1.0-Fecha**
+* **LAMU\_1.1-Fecha**
+* **LAMU\_2.0-Fecha**
+* **LAMU\_2.1-Fecha**
+
+
+
+
+

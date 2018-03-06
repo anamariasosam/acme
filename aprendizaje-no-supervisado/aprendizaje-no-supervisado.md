@@ -1,11 +1,15 @@
-# Aprendizaje NO supervisado
+**  
+**
 
-Se entrena el modelo sin las etiquetas. Poder dividir los datos, en grupos.
+# Herramientas
 
-Ejemplos: Texto, palabras, lenguajes. Movimiento financieros, movimiento bancarios.
+**Para los artefactos de tipo documental:Confluence**
 
-Sirve para eliminar datos mal etiquetados.
+**Para las historias de usuario:Jira**
 
-## Algoritmos de clustering y agrupamiento   
-* [K-means](/aprendizaje-no-supervisado/k-means.md)
-* [GMM](/aprendizaje-no-supervisado/gmm.md)
+**Para la retrospectiva después de cada sprint:Trello**
+
+**Para el código fuente:GitHub**
+
+**Para el reporte de incidentes: Jira**
+

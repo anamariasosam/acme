@@ -1,23 +1,19 @@
-# Binarización
+# Momento de las líneas bases
 
-Convertir las caracteristicas en variables booleanas. Se debe fijar un umbral $$\gamma$$ para la binarización de los datos
+![](/assets/MASHUP.png)
 
-## Método de binarización
-```python
-def binarizacion(X, gamma) :
-    filas = np.shape(X)[0]
-    columnas = np.shape(X)[1]
+**Las líneas base representan el estado de un proyecto o rama en un momento determinado en el tiempo.**
 
-    for i in range(filas) :
-        for j in range(columnas) :
-            X[i][j] = 1 if X[i][j] >= gamma else 0
-    return X
-```
 
-## LLamámos el método
-```python
-gamma = float(input('Ingrese el valor de gamma'))
-datos_binarizados = binarizacion(X,gamma)
 
-print(datos_binarizados)
-```
+Estas se realizarán:
+
+* Cada vez que se termina un Sprint
+* Cada que sea necesario realizar cambios al proyecto a petición del cliente.
+
+
+
+El código de estas líneas bases estará guardado en un repositorio, para dar garantía en el mantenimiento y si es necesario un backup
+
+
+

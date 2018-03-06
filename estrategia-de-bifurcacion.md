@@ -1,0 +1,4 @@
+# Estrategia de bifurcación
+
+
+

@@ -1,22 +1,12 @@
-# Escalamiento
-Medir con la misma *regla* todas las caracteristicas a todas las caracteristicas,para ello se realiza la siguiente operacion:
+# Contenido de las líneas bases
+
+* Instaladores
+* Manuales de instalación
+* Código Fuente
+* Historia de usuario
+* Documentación técnica del desarrollo
 
 
-$$\frac{\mathbf{X}-min(\mathbf{X})}{max(\mathbf{X}) - min(\mathbf{X})},$$
 
-## Método de escalamiento
-```python
-def escalamiento(X):
-    X = X - X.min(axis=0)
-    X = X/(X.max(axis=0) - X.min(axis=0))
 
-    return X
 
-```
-
-## Llamámos el método
-
-```python
-datos_escalados = escalamiento(X)
-print(datos_escalados)
-```
